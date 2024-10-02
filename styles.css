@@ -5,3 +5,32 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: hsl(218, 22%, 67%);
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.price {
+  font-weight: 700;
+  font-size: 40px;
+}
+.month {
+  margin-left: 15px;
+  color: hsl(218, 22%, 67%);
+}
+
+li {
+  color: hsl(204, 43%, 93%);
+}
