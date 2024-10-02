@@ -13,16 +13,34 @@ body {
   font-style: normal;
   font-size: 16px;
   color: hsl(218, 22%, 67%);
+  background-color: aliceblue;
 }
 
 .container {
   display: block;
   margin: 0 auto;
+  margin-top: 100px;
   padding: 40px;
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   max-width: 600px;
+  background-color: white;
+}
+.subscription {
+  background-color: #2ab3b1;
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  margin-left: -40px;
+}
+.whyus {
+  background-color: #4abdbd;
+  color: white;
+  margin-right: -40px;
+  padding: 20px;
+  padding-left: 40px;
 }
 
 h1 {
@@ -41,11 +59,15 @@ h2 {
 }
 .month {
   margin-left: 15px;
-  color: hsl(218, 22%, 67%);
+  color: #98ced0;
 }
 
 li {
   color: hsl(204, 43%, 93%);
   list-style: none;
   margin-left: -40px;
+}
+
+footer {
+  margin-top: 15px;
 }
