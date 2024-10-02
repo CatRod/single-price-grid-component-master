@@ -32,25 +32,35 @@ body {
   background-color: #2ab3b1;
   color: white;
   padding-left: 40px;
-  padding-top: 20px;
-  margin-left: -40px;
+  padding-top: 40px;
+  margin-bottom: -40px;
+  margin-left: -28px;
+  margin-top: 20px;
 }
 .whyus {
   background-color: #4abdbd;
   color: white;
-  margin-right: -40px;
-  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   padding-left: 40px;
+  margin-bottom: -40px;
+  margin-right: -28px;
+  margin-top: 20px;
 }
 
 h1 {
   color: hsl(179, 62%, 43%);
   font-size: 24px;
+  margin-bottom: 30px;
 }
 
 h2 {
   color: hsl(71, 73%, 54%);
   font-size: 17px;
+}
+h3 {
+  font-size: 17px;
+  margin-bottom: 20px;
 }
 
 .price {
@@ -70,4 +80,10 @@ li {
 
 footer {
   margin-top: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 25px;
+  }
 }
