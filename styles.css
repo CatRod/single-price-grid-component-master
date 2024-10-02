@@ -11,23 +11,28 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size: 16px;
   color: hsl(218, 22%, 67%);
 }
 
 .container {
+  display: block;
   margin: 0 auto;
   padding: 40px;
   border-style: solid;
   border-width: 1px;
   border-radius: 8px;
+  max-width: 600px;
 }
 
 h1 {
   color: hsl(179, 62%, 43%);
+  font-size: 24px;
 }
 
 h2 {
   color: hsl(71, 73%, 54%);
+  font-size: 17px;
 }
 
 .price {
@@ -41,4 +46,6 @@ h2 {
 
 li {
   color: hsl(204, 43%, 93%);
+  list-style: none;
+  margin-left: -40px;
 }
